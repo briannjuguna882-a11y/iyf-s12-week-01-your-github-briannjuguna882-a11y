@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Njuguna - About Me</title>
+</head>
+
+<body>
+
+    <h1>Brian Njuguna</h1>
+
+    <p>
+        Hello! My name is Brian Njuguna. I am a mechanical engineer,
+        professional trader and investor. I am learning software
+        development and algorithmic trading.
+    </p>
+
+    <img src="https://placehold.co/300x200" alt="Placeholder image">
+
+    <h2>My Interests</h2>
+
+    <ul>
+        <li>Technology</li>
+        <li>Financial Markets</li>
+        <li>Programming</li>
+    </ul>
+
+    <h2>My Favorite Website</h2>
+
+    <p>
+        Visit
+        <a href="https://github.com">GitHub</a>
+    </p>
+
+    <h2>Contact Me</h2>
+
+    <p>
+        Email:
+        <a href="mailto:briannjuguna882@gmail.com">briannjuguna882@gmail.com</a>
+    </p>
+
+</body>
+</html>
