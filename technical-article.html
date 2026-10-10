@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML and Accessibility</title>
+</head>
+<body>
+
+    <header>
+        <h1>Understanding Semantic HTML and Accessibility</h1>
+
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="projects.html">Projects</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Introduction</h2>
+
+            <p>
+                Semantic HTML means using HTML elements according to
+                their meaning and purpose. It helps browsers,
+                developers, and assistive technologies understand
+                the structure of a webpage.
+            </p>
+
+            <h2>Why Semantic HTML Matters</h2>
+
+            <p>
+                Elements such as header, nav, main, article, section,
+                and footer describe different parts of a webpage.
+                They make code easier to read and maintain. Semantic
+                HTML also helps people who use screen readers
+                navigate a website more easily.
+            </p>
+
+            <h2>Before and After</h2>
+
+            <p>Before: using generic elements for everything.</p>
+
+            <pre><code>&lt;div&gt;
+    &lt;div&gt;My Website&lt;/div&gt;
+    &lt;div&gt;Welcome to my page&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+            <p>After: using meaningful semantic elements.</p>
+
+            <pre><code>&lt;header&gt;
+    &lt;h1&gt;My Website&lt;/h1&gt;
+&lt;/header&gt;
+&lt;main&gt;
+    &lt;p&gt;Welcome to my page&lt;/p&gt;
+&lt;/main&gt;</code></pre>
+
+            <h2>Common Accessibility Problems and Fixes</h2>
+
+            <h3>1. Images without alternative text</h3>
+            <p>
+                Problem: people using screen readers may not understand
+                what an image shows. Fix: add descriptive alt text
+                to meaningful images.
+            </p>
+
+            <h3>2. Form fields without labels</h3>
+            <p>
+                Problem: users may not know what information a field
+                requires. Fix: connect each input to a label using
+                matching for and id attributes.
+            </p>
+
+            <h3>3. Poor heading structure</h3>
+            <p>
+                Problem: headings used in the wrong order can make
+                content harder to navigate. Fix: use headings in a
+                logical hierarchy, starting with h1 for the main title.
+            </p>
+
+            <h2>Conclusion</h2>
+
+            <p>
+                Semantic HTML and accessibility help make websites
+                clearer and easier for more people to use. Developers
+                should use meaningful elements, descriptive image text,
+                properly labelled forms, and logical headings.
+            </p>
+
+            <p>
+                Visit my
+                <a href="index.html">personal portfolio</a>
+                to learn more about me and my projects.
+            </p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Brian Njuguna</p>
+    </footer>
+
+</body>
+</html>
